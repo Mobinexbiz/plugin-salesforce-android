@@ -81,8 +81,7 @@
     <string name="sf__ssl_unknown_error">Unknown Error</string>
     <string name="sf__ssl_untrusted">Untrusted Certificate Authority</string>
     <string name="sf__switch_account">Switch Account</string>
-    <style name="SalesforceSDK">
-    </style>
+    <style name="SalesforceSDK"/>
     <style name="SalesforceSDK.AccountSwitcher">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -104,10 +103,9 @@
     <style name="SalesforceSDK.ActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/SalesforceSDKActionBar</item>
     </style>
-    <style name="SalesforceSDK.Passcode">
-    </style>
+    <style name="SalesforceSDK.Passcode"/>
     <style name="SalesforceSDK.Passcode.Background">
-    	<item name="android:background">@color/sf__passcode_layout_bg</item>    
+        <item name="android:background">@color/sf__passcode_layout_bg</item>
     </style>
     <style name="SalesforceSDK.Passcode.Box">
         <item name="android:padding">@dimen/sf__passcode_layout_padding</item>
@@ -122,7 +120,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        </style>
+    </style>
     <style name="SalesforceSDK.Passcode.Text.Entry">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:lines">1</item>
@@ -167,10 +165,10 @@
     </style>
     <style name="SalesforceSDK.ServerPicker.EditText">
         <item name="android:layout_marginTop">@dimen/sf__server_picker_margin_top</item>
-		<item name="android:layout_marginLeft">@dimen/sf__server_picker_margin_left</item>
-		<item name="android:layout_marginRight">@dimen/sf__server_picker_margin_right</item>
-		<item name="android:layout_marginBottom">@dimen/sf__server_picker_margin_bottom</item> 
-		<item name="android:inputType">text</item>
+        <item name="android:layout_marginLeft">@dimen/sf__server_picker_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/sf__server_picker_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/sf__server_picker_margin_bottom</item>
+        <item name="android:inputType">text</item>
     </style>
     <style name="SalesforceSDK.ServerPicker.List">
         <item name="android:orientation">vertical</item>
