@@ -11,21 +11,24 @@ This is Smartface Salesforce plugin based on SalesForce Native Android SDK. You 
 Setup
 =====
 
-To start using Calendar plugin you need to follow below steps:
+To start using plugin you need to follow below steps:
 
  - Download plugin file.
  - Copy plugin file to Smartface plugin folder.
- - Select Calendar plugin in Smartface project settings.
+ - Select plugin in Smartface project settings.
 
-To use Calendar with auto complete support (Optional)
+To use pugin with auto complete support (Optional)
 
- - Copy Calendar auto complete Javascript file to your project folder.
+ - Copy  auto complete Javascript file to your project folder.
  - Load auto complete file in global.
+
+If you want to rebuild the plugin you can use `buildplugin.bat` file in project root folder. Be sure that `CLI` is installed and in your `PATH`.
 
 You can look following guides to understand how can you pass these steps:
 
  - Adding a plugin to Smartface projects
  - Adding auto complete support for plugins
+ - Installing CLI and adding it to PATH.
 
 #Features
 
