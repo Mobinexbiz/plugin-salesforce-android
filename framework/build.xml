@@ -177,8 +177,8 @@
         </junit>
     </target>
 
-    <target name="cordova_debug" depends="debug"></target>
+    <target name="cordova_debug" depends="debug" />
 
-    <target name="cordova_release" depends="release"></target>
+    <target name="cordova_release" depends="release" />
 
 </project>

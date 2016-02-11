@@ -4,12 +4,12 @@
         "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\layout\\sf__server_picker.xml"
     },
     {
-        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\layout\\sf__server_picker_list.xml",
-        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\layout\\sf__server_picker_list.xml"
-    },
-    {
         "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\layout\\sf__manage_space.xml",
         "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\layout\\sf__manage_space.xml"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\layout\\sf__server_picker_list.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\layout\\sf__server_picker_list.xml"
     },
     {
         "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\layout\\sf__login.xml",

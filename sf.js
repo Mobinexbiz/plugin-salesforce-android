@@ -10,7 +10,6 @@
     var activity = "Landroid/app/Activity;";
     SF.isActive = false;
 
-
     var setup = {
         iOS: function setup_iOS() {
             SF.manager = new SMFSFManager();
@@ -31,17 +30,6 @@
             SF.logout = logout_Android;
         }
     };
-
-    /**
-     * Called after successful init
-     * @callback postLaunchActionCallback
-     */
-
-    /**
-     * Called after unsuccessful init
-     * @callback launchErrorActionCallback
-     * @param {string} e - Error info
-     */
 
     /**
      * Initiates Salesforce plugin
@@ -83,18 +71,6 @@
             throw Error("SalesForce SDK is not logged in");
         }
     }
-
-    /**
-     * Called after successful query result
-     * @callback onSuccessQuery
-     * @param {object} e - Response object
-     */
-
-    /**
-     * Called after unsuccessful query result
-     * @callback onFailureQuery
-     * @param {object} e - Error object
-     */
 
     /**
      * Performs query to rest services
@@ -165,11 +141,6 @@
             sfClient.requestForRest.apply(sfClient, query2);
         }
     }
-
-    /**
-     * Called after logging out
-     * @callback logoutCallback
-     */
 
     /**
      * Performs logout from salesforce
