@@ -37,21 +37,21 @@ You can look following guides to understand how can you pass these steps:
 
 #### Constructor
 
-You can create SalesForce Manager Constructor as;
+You can create SalesForce Manager instance as;
 
 ````Javascript
 var SFSDKManager = new SMFSFManager();
 ````
 
-#### Set ConnectedAppId Property
+#### Set ConnectedAppId property
 
-ConnectedAppId is a value that Salesforce created for you to use in app.
+ConnectedAppId is a value that Salesforce created for your app.
 
 ````Javascript
 SFSDKManager.connectedAppId = "3MVG9FS3IyroMOh4nubHUj9SXAs1i6qwY8KhK6bsE6WmX3g9vrNsjA1CGgUsdasdasdfdsfsdfsdfqqww";
 ````
 
-#### Set connectedAppCallbackUri Property
+#### Set connectedAppCallbackUri property
 
 ConnectedAppCallbackUri is a uri that Salesforce uses for communication.
 
@@ -59,7 +59,7 @@ ConnectedAppCallbackUri is a uri that Salesforce uses for communication.
 SFSDKManager.connectedAppCallbackUri = "test://test"; 
 ````
 
-#### Set authScopes Property
+#### Set authScopes property
 
 AuthScopes is an array that includes what the application will use.
 
@@ -86,7 +86,8 @@ SFSDKManager.SMFPostLaunchAction = function(e) {
 ````
 
 #### SMFLaunchErrorAction Event
-If there is an error while authenticating ;
+
+If there is an error while authenticating:
 
 ````Javascript
 SFSDKManager.SMFLaunchErrorAction = function(e) {
@@ -95,14 +96,16 @@ SFSDKManager.SMFLaunchErrorAction = function(e) {
 ````
 
 #### SFRestAPI Object
-SFRestApi is used to send request and to get response with delegate methods. You can call sharedInstance as;
+
+SFRestApi is used to send request and to get response with delegate methods. You can call sharedInstance as:
 
 ````Javascript
 var restApi = SFRestAPI.sharedInstance();
 ````
 
-#### SFRestRequest Object
-You can use this class as request object. SFRestAPI creates SFRestRequest object as ;
+#### SFRestRequest object
+
+You can use this class as request object. SFRestAPI creates SFRestRequest object as:
 
 ````Javascript
 var restRequest = restApi.requestForQuery(query);
@@ -110,13 +113,13 @@ var restRequest = restApi.requestForQuery(query);
 
 #### SMFSFRestDelegate Object
 
-Events are handled with this class methods. You can create as ;
+Events are handled with this class methods. You can create as:
 
 ````Javascript
 var reqDelegate = new SMFSFRestDelegate();
 ````
 
-#### SMFSFRestDelegate onSuccess Event
+#### SMFSFRestDelegate onSuccess event
 
 This event is triggered after a successful request ;
 
