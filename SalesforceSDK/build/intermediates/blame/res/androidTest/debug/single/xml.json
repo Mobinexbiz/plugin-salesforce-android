@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\bundles\\debug\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\servers.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\bundles\\debug\\res\\xml\\servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\authenticator.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\bundles\\debug\\res\\xml\\authenticator.xml"
+    }
+]

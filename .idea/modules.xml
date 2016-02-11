@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_Sales_NNN.iml" filepath="$PROJECT_DIR$/1_Sales_NNN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalesPlugin/SalesPlugin.iml" filepath="$PROJECT_DIR$/SalesPlugin/SalesPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalesforceSDK/SalesforceSDK.iml" filepath="$PROJECT_DIR$/SalesforceSDK/SalesforceSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+    </modules>
+  </component>
+</project>

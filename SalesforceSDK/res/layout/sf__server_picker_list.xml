@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/sf__server_list_group"
+        style="@style/SalesforceSDK.ServerPicker.List" />
+
+    <Button
+        android:id="@+id/sf__show_custom_url_edit"
+        style="@style/SalesforceSDK.ServerPicker.Button"
+        android:onClick="showCustomUrlDialog"
+        android:text="@string/sf__custom_url_button" />
+
+    <LinearLayout
+        style="@style/SalesforceSDK.ServerPicker.ButtonContainer"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sf__apply_button"
+            style="@style/SalesforceSDK.ServerPicker.Button.OkCancel"
+            android:onClick="setPositiveReturnValue"
+            android:text="@string/sf__server_url_default_apply" />
+
+        <Button
+            android:id="@+id/sf__cancel_button"
+            style="@style/SalesforceSDK.ServerPicker.Button.OkCancel"
+            android:onClick="setCancelReturnValue"
+            android:text="@string/sf__server_url_default_cancel" />
+    </LinearLayout>
+</LinearLayout>

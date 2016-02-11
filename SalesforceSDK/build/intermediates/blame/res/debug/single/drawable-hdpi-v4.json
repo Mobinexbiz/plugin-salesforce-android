@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sf__icon.png",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\drawable-hdpi\\sf__icon.png"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sf__highlight_glare.png",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\drawable-hdpi\\sf__highlight_glare.png"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\exploded-aar\\1_Sales_NNN\\framework\\unspecified\\res\\drawable-hdpi-v4\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sf__edit_icon.png",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesforceSDK\\res\\drawable-hdpi\\sf__edit_icon.png"
+    }
+]

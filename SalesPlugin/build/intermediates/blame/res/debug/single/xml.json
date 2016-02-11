@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\exploded-aar\\1_Sales_NNN\\SalesforceSDK\\unspecified\\res\\xml\\servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\exploded-aar\\1_Sales_NNN\\SalesforceSDK\\unspecified\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "C:\\Users\\olcay\\OneDrive\\Mobinex\\1_Sales_NNN\\SalesPlugin\\build\\intermediates\\exploded-aar\\1_Sales_NNN\\SalesforceSDK\\unspecified\\res\\xml\\authenticator.xml"
+    }
+]

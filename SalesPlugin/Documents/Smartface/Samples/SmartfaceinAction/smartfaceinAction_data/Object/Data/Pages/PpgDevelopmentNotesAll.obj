@@ -1,0 +1,82 @@
+<PG ID="B862A2D2-9556-4C3E-9BC3-1094B4DB868C" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgDevelopmentNotesAll" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" StatusBarTransparent="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<SEARCHBAR ID="9D7E2647-605E-4CD7-8E16-6A1E71F32A92" Nm="SearchBar1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1">
+			<LCT X="0%" Y="0%" W="1000%" H="100%" Z="0" Anc="3" BarStyle="0" StickToNavigationBar="0" TintColor="00ea7f" />
+			<PlaceHolder>
+				<PRM Nm="Bind" Val="&quot;Search Notes&quot;" />
+			</PlaceHolder>
+			<DATA>
+				<PRM Nm="Bind" Val="" />
+			</DATA>
+			<ONCANCEL script="pgDevelopmentNotesAll_SearchBar1_OnCancel(e);" />
+			<ONSEARCHSTART script="pgDevelopmentNotesAll_SearchBar1_OnSearchStart(e);" />
+			<ONSEARCHSUBMIT script="pgDevelopmentNotesAll_SearchBar1_OnSearchSubmit(e);" />
+			<ONTEXTCHANGE script="pgDevelopmentNotesAll_SearchBar1_OnTextChange(e);" />
+		</SEARCHBAR>
+		<REPEATBOX ID="12F0AAA0-BDA7-4FB9-8876-86B40A82FA70" Nm="RepeatBox1" Vsb="1" Enb="0" TouchEnabled="1" EnableScroll="1" ShwScrl="1" ItmDel="0" ItmReord="0" ItmGrpng="0" GrpngStyle="0" PDownRefresh="0" PUpRefresh="0" ShowHeader="0" ScrollHeader="0" StrokeWidth="0" StrokeColor="999999" AutoSize="0" Loop="0" UseActiveItem="0">
+			<LCT X="0%" Y="100%" W="1000%" H="900%" Z="0" Anc="3" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<DATASOURCE>
+				<PRM Nm="Bind" Val="" />
+			</DATASOURCE>
+			<GROUPINGDATASOURCE>
+				<PRM Nm="Bind" Val="" />
+			</GROUPINGDATASOURCE>
+			<ITM InActItemH="4908d" ActItemH="4000d" HeaderItemH="4000d" GroupingHeaderItemH="3300d" PullDownItemH="4000d" PullUpItemH="4000d">
+				<STYLE BgTparent="0" InActBgClr="ffffff" InActBgPicName="" InActPicPosition="3" InActPicSizeMode="2" ActBgClr="eff3ef" ActBgPicName="" ActPicPosition="3" ActPicSizeMode="2" HeaderBgClr="eff3ef" HeaderBgPicName="" HeaderPicPosition="3" HeaderPicSizeMode="2" GroupingHeaderBgClr="e0dcd6" GroupingHeaderBgPicName="" GroupingHeaderPicPosition="3" GroupingHeaderPicSizeMode="2" PullDownBgClr="5a6265" PullDownBgPicName="" PullDownPicPosition="3" PullDownPicSizeMode="2" PullUpBgClr="5a6265" PullUpBgPicName="" PullUpPicPosition="3" PullUpPicSizeMode="2" />
+				<BODY>
+					<INACTIVEITEMS>
+						<LBL ID="5B93868B-48AD-494B-9422-750802C66594" Nm="lblNote" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="0" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="27%" Y="0%" W="873%" H="1000%" Z="0" Anc="3" />
+							<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+						</LBL>
+						<LINE ID="E1F37496-4BCF-450A-84C8-D7DAD8125EC9" Nm="Line1" Vsb="1" Alpha="100" TouchEnabled="0" Clr="cacaca" BrW="1" Dashed="0">
+							<LCT X="20%" Y="970%" W="960%" H="30%" Z="0" Anc="3" />
+							<ROT Angle="0" />
+						</LINE>
+						<PIC ID="C66F4F95-694D-4B4F-AAA8-2516568476DB" Nm="imgArrow" Vsb="1" Alpha="100" TouchEnabled="0">
+							<LCT X="900%" Y="0%" W="100%" H="1000%" Z="0" Anc="3" />
+							<POS Pos="15" SMode="1" EnableZoom="0" EnableScroll="0" EnableCache="1" />
+							<DATA>
+								<PRM Nm="Bind" Val="resources://arrow.png" />
+							</DATA>
+						</PIC>
+					</INACTIVEITEMS>
+				</BODY>
+			</ITM>
+			<ONSELECTEDITEM script="pgDevelopmentNotesAll_RepeatBox1_OnSelectedItem(e);" />
+			<ONROWRENDER script="pgDevelopmentNotesAll_RepeatBox1_OnRowRender(e);" />
+		</REPEATBOX>
+		<LBL ID="4410B345-A8A6-494A-A63D-2C31BCC7697F" Nm="lblNoNotes" Type="2" Mask="" Vsb="0" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="0%" Y="100%" W="1000%" H="900%" Z="0" Anc="3" />
+			<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="lang[&quot;noNotes&quot;]" />
+			</DATA>
+		</LBL>
+		<RECT ID="EBA85CD1-54E0-4FAA-8DE8-ED79CEF087E5" Nm="Rectangle1" Vsb="0" Alpha="20" TouchEnabled="1" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+			<LCT X="0%" Y="100%" W="1000%" H="900%" Z="0" Anc="3" />
+			<ROT Angle="0" />
+			<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+			<ONTOUCHENDED script="pgDevelopmentNotesAll_Rectangle1_OnTouchEnded(e);" />
+		</RECT>
+		<LBL ID="9320364A-2067-470C-B7E9-E6AB1E0D8145" Nm="lblNoSearchResults" Type="2" Mask="" Vsb="0" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="0%" Y="100%" W="1000%" H="4908d" Z="0" Anc="3" />
+			<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="0" BgClr="ffffff" BrClr="999999" BrW="0" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="lang.noSearchNotes" />
+			</DATA>
+		</LBL>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgDevelopmentNotesAll_Self_OnShow(e);" />
+	</EVENTS>
+</PG>
