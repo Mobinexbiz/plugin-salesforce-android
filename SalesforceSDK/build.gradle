@@ -3,9 +3,6 @@ apply plugin: 'com.android.library'
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
     compile project(':framework')
-    compile files('C:/Users/olcay/OneDrive/Mobinex/1_Sales_NNN/libs/volley_android-4.4.2_r2.jar')
-    compile files('C:/Users/olcay/OneDrive/Mobinex/1_Sales_NNN/libs/guava-18.0.jar')
-    compile files('C:/Users/olcay/OneDrive/Mobinex/1_Sales_NNN/libs/android-junit-report-1.5.8.jar')
 }
 
 android {
